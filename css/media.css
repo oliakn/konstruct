@@ -152,6 +152,22 @@
     .footer_icons{
         display: inline;
     }
+    .cap_title_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    .d_flex{
+        display: block;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .cap_desc{
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -189,18 +205,11 @@
     .d_flex {
         margin-left: 0;
     }
-    .btn{
-        margin-top: 15px;
-    }
+
     .cap_box{
         margin-bottom: 15px;
     }
-    .d_flex{
-        display: block;
-    }
-    .col-8{
-        width: 100%;
-    }
+
     .get_in_touch_title {
         font-size: 24px;
     }
@@ -223,5 +232,8 @@
     }
     .copyright_content {
         font-size: 11px;
+    }
+    .cap_desc{
+        margin-top: 10px;
     }
 }
