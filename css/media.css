@@ -269,6 +269,9 @@
         font-size: 22px;
     }
 
+    .hero {
+background-attachment: unset;
+    }
 
     .section_title {
         font-size: 14px;
