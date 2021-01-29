@@ -17,6 +17,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #48555B;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .hero {
     background: url("../images/bg.png") fixed no-repeat center/cover;
@@ -227,7 +230,7 @@ a:hover {
     font-size: 11px;
     line-height: 19px;
     letter-spacing: 0.2px;
-    padding-right: 75px;
+    padding-right: 55px;
 }
 
 .btn {
@@ -321,6 +324,8 @@ a:hover {
     line-height: 30px;
     letter-spacing: 0.846154px;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
 
 .footer {
@@ -361,6 +366,7 @@ a:hover {
 
 .footer_links_box {
     display: flex;
+    width: 281px;
 }
 
 .footer_list {
@@ -397,10 +403,14 @@ a:hover {
 
 .footer_icons {
     display: flex;
-    width: 15%;
     margin-top: 33px;
 }
-
+.footer_icon{
+    color: #FFFFFF;
+}
+.icon:not(:last-child){
+    margin-right: 24px;
+}
 .copyright {
     background: #171819;
     padding: 22px 0 23px;

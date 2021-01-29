@@ -21,9 +21,7 @@
         margin-left: 15px;
     }
 
-    .container {
-        padding: 0 15px;
-    }
+
 
     .get_in_touch_title {
         font-size: 28px;
@@ -35,6 +33,9 @@
 }
 
 @media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
     .hero_title {
         font-size: 42px;
     }
@@ -118,8 +119,9 @@
         align-items: center;
         flex-direction: column;
         z-index: 1;
-        transition: .6s;
         padding: 20px 0;
+        transition: .6s;
+
     }
 
     .header_menu.active {
@@ -127,14 +129,19 @@
         right: 0;
         display: flex;
         padding: 20px 0;
+
+
     }
 
     .header_menu.active:hover {
         color: #FFFFFF;
+
     }
 
     .header_menu {
         display: none;
+
+
     }
 
     .hero_title {
@@ -254,12 +261,14 @@
 
     .story_content {
         width: 100%;
-        margin: 0 15px;
     }
 
     .col-4 {
         width: 100%;
         padding: 15px;
+    }
+    .cap_desc{
+        padding-right: 0;
     }
 
 }
